@@ -16,3 +16,4 @@ In order to fix this I used a simple shellscript that checked to see if the pyth
 This ran on a raspberry pi behind my monitors uninterrupted for a year.
 
 This is purely for a personal backup and to be a (albeit badly written) example of how to interact with the twitch api using python.
+It still works but it's old and I'm not really interested in adding to it or helping people troubleshoot, Sorry.
