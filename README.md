@@ -1,5 +1,5 @@
 # OSRS-Phish-Viewbot-Finder---Python-2.7
-This is a Python script that logs a bot into twitch that will look for potential viewbotters in the OSRS category
+This is a Python script that logs a bot into twitch that will look for potential viewbotters in the OSRS category and will warn anybody that follows their channel that the video is most likely a phishing scam and not to click any links.
 
 
 My first project (from a while ago) to learn some python, it's not perfect but it works..kind of
