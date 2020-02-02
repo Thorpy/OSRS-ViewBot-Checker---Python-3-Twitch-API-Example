@@ -5,6 +5,9 @@
 # I assume they're viewbotting, it then watches the follower count of the potential phishers and if anybody follows them
 # the bot will whisper the potential victim a little warning, mentioning not to click suspicious links...hopefully saving their account.
 
+#   To register your bot follow the twitch dev portal link - https://dev.twitch.tv/dashboard/apps/create
+#   note, there is a limit to the amount of whispers you can send on an unvarified bot, this is to stop spammers/phishers.
+
 #   This was my first python project ever, it is not great, I know
 #   I did have a more sophisticated way of finding viewbotters, looking at active chatters etc etc but I can't find it, this is a very simple version that only checks if someone is in the top 5 viewers but has less than 100 viewers.
 
