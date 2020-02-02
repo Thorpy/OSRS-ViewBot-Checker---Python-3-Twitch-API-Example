@@ -1,5 +1,10 @@
 #   This is for Python 2.7, you can use "2to3" - https://docs.python.org/2/library/2to3.html for python 3 but it will require some tinkering
 
+# This script asks twitch for the top 5 streamers in the "Oldschool Runescape" category (game_id=459931), then it asks for those 
+# streamers' follower count, if the follower count is less than 100...but they're the top of the category
+# I assume they're viewbotting, it then watches the follower count of the potential phishers and if anybody follows them
+# the bot will whisper the potential victim a little warning, mentioning not to click suspicious links...hopefully saving their account.
+
 #   This was my first python project ever, it is not great, I know
 #   I did have a more sophisticated way of finding viewbotters, looking at active chatters etc etc but I can't find it, this is a very simple version that only checks if someone is in the top 5 viewers but has less than 100 viewers.
 
