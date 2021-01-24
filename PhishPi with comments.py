@@ -9,7 +9,7 @@
 #   note, there is a limit to the amount of whispers you can send on an unvarified bot, this is to stop spammers/phishers.
 
 #   This was my first python project ever, it is not great, I know
-#   I did have a more sophisticated way of finding viewbotters, looking at active chatters etc etc but I can't find it, this is a very simple version that only checks if someone is in the top 5 viewers but has less than 100 viewers.
+#   I did have a more sophisticated way of finding viewbotters, looking at active chatters etc etc but I can't find it, this is a very simple version that only checks if someone is in the top 5 viewers but has less than 100 followers.
 
 import requests # pip install requests
 import json # pip install json
