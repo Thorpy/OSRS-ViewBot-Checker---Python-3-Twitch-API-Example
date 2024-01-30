@@ -8,8 +8,8 @@ from datetime import datetime
 
 class TwitchBot:
     def __init__(self, gui=None):
-        self.password = "uernwyix4vsvuuqfwmdmzekntwuv9k"
-        self.client_id = "ohkcee30g6utvd9tbjdee4i2kexkj5"
+        self.password = "#### OAUTH HERE ####"
+        self.client_id = "#### CLIENT ID HERE ####"
         self.session = requests.Session()
         self.session.headers.update({'Client-ID': self.client_id, 'Authorization': f'Bearer {self.password}'})
         self.gui = gui
@@ -28,7 +28,7 @@ class TwitchBot:
             created_at = datetime.strptime(user_data['created_at'], '%Y-%m-%dT%H:%M:%SZ')
             account_age = (datetime.now() - created_at).days
             stream_info.append((stream['user_name'], stream['viewer_count'], total_followers, account_age))
-            if total_followers < 100 or account_age < 3000:
+            if total_followers < 100 and account_age < 30:
                 self.gui.add_phisher(stream['user_name'])  # Add the phisher to the GUI
         return stream_info
 
